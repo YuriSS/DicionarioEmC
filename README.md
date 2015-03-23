@@ -2,7 +2,7 @@
 
 Resolução do exercício "Andy's First Dictionary" proposto pela <a href="https://www.urionlinejudge.com.br/" target="_blank">URL Judge</a>.
 
-<a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1215" target="_blank"><i>Link do exercício:</i></a>
+<a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1215" target="_blank"><i>Link do exercício:</i></a><br />
 <i>Descrição do Exercício:</i>
 
 <h2 align="center">Andy's First Dictionary</h2>
