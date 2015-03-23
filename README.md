@@ -1,10 +1,11 @@
 # Andy's First Dictionary
 
-Resolução do exercício "Andy's First Dictionary" proposto pela <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1215" target="_blank">URL</a> Judge.
+Resolução do exercício "Andy's First Dictionary" proposto pela <a href="https://www.urionlinejudge.com.br/" target="_blank">URL Judge</a>.
 
-Descrição do Exercício:
+<a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1215" target="_blank"><i>Link do exercício:</i></a>
+<i>Descrição do Exercício:</i>
 
-<h1 align="center">Andy's First Dictionary</h1>
+<h2 align="center">Andy's First Dictionary</h2>
 
 Andy, 8, has a dream - he wants to produce his very own dictionary. This is not an easy task for him, as the number of words that he knows is, well, not quite enough. Instead of thinking up all the words himself, he has a briliant idea. From his bookshelf he would pick one of his favourite story books, from which he would copy out all the distinct words. By arranging the words in alphabetical order, he is done! Of course, it is a really time-consuming job, and this is where a computer program is helpful.
 
