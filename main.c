@@ -14,11 +14,14 @@ int main() {
 	tam = strlen(texto);
 
 	while(i < tam) {
-		if(texto[i] == EOF) {
-			printf("%d veio\n", i);
+		if(texto[i] == '.' || texto[i] == ',' || texto[i] == '#') {
+			texto[i] = ' ';
 		}
+		texto[i] = tolower(texto[i]);
 		i++;
 	}
+
+	printf("\n\n%s\n\n", texto);
 
 	return 0;
 
