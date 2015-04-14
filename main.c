@@ -5,24 +5,42 @@
 #include "arvore.h"
 
 int main() {
-
-	//Arvore* tree;
-	char texto[10000];
-	int i=0, tam;
-
-	fgets(texto, 10000, stdin);
-	tam = strlen(texto);
-
-	while(i < tam) {
-		if(texto[i] == '.' || texto[i] == ',' || texto[i] == '#') {
-			texto[i] = ' ';
-		}
-		texto[i] = tolower(texto[i]);
-		i++;
-	}
-
-	printf("\n\n%s\n\n", texto);
-
-	return 0;
-
+    Tree* a;
+    char linha[200], *m;
+    char expReg[] = "qwertyuiopasdfghjklzxcvbnm";
+    int i,j,flag,first = 0;
+ 
+    while(fgets(linha, 200, stdin)) {
+        char tmp;
+        i=0;
+        while(linha[i]) {
+            linha[i] = tolower(linha[i]);
+            flag = j = 0;
+            while(expReg[j]) {
+                if(linha[i] == expReg[j]) {
+                    flag = 1;
+                }
+                j++;
+            }
+            if(flag == 0) {
+                linha[i] = ' ';
+            }
+            i++;
+        }
+        m = strtok(linha, " ");
+        while(m != NULL) {
+            if(first == 0) {
+                a = novaTree(m);
+                first = 1;
+            } else {
+                push(a->root, m);
+            }
+            m = strtok(NULL, " ");
+        }
+    }
+ 
+    inorder(a->root);
+ 
+    return 0;
+ 
 }
